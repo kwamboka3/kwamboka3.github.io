@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Project</title>
     <style>
-        /* Set a black background color for the body */
-        body {
-            background-color: #000;
-            color: #fff; /* Set text color to white */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
+        /* Add styles for the navigation menu */
         header {
             background-color: #007bff;
             color: #fff;
@@ -21,36 +13,59 @@
             padding: 20px;
         }
 
-        /* Add more CSS styles for other sections as needed */
-
-        .cta-button {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333; /* Background color for the navigation menu */
         }
 
-        .cta-button:hover {
-            background-color: #0056b3;
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 20px; /* Adjust spacing between menu items */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007bff;
         }
     </style>
 </head>
 <body>
+    <!-- Navigation Menu -->
     <header>
-        <h1><b>THE MAZE PROJECT<b></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- ... (other HTML content) ... -->
 
-    <section class="call-to-action">
-        <h2>Explore My Portfolio</h2>
-        <p>
-            Ready to see my work? Click the button below to start exploring my projects and learn more about my skills and experiences.
-        </p>
-        <a href="/portfolio" class="cta-button">Explore Portfolio</a>
+    <section id="about">
+        <!-- About section content -->
+    </section>
+
+    <section id="portfolio">
+        <!-- Portfolio section content -->
+    </section>
+
+    <section id="contact">
+        <!-- Contact section content -->
     </section>
 
     <!-- ... (other HTML content) ... -->
